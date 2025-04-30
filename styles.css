@@ -1,0 +1,106 @@
+body {
+    padding: 20px;
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.match-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.team-selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.team-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    width: 45%;
+}
+
+.team-option:hover {
+    background-color: #f0f0f0;
+}
+
+.team-option.selected {
+    background-color: #d4edda;
+    font-weight: bold;
+    box-shadow: 0 0 0 2px #28a745;
+}
+
+.team-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+.vs-text {
+    font-weight: bold;
+    margin: 0 10px;
+    color: #dc3545;
+}
+
+.match-date {
+    color: #6c757d;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.match-venue {
+    color: #6c757d;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.match-time {
+    color: #6c757d;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.match-number {
+    font-size: 0.8em;
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.team-name {
+    display: flex;
+    align-items: center;
+}
+
+.eliminated {
+    opacity: 0.6;
+    position: relative;
+}
+
+.eliminated::after {
+    content: "(E)";
+    margin-left: 5px;
+    color: #dc3545;
+    font-size: 0.8em;
+}
+
