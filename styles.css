@@ -104,3 +104,53 @@ body {
     font-size: 0.8em;
 }
 
+.social-links {
+    margin: 30px 0;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .social-links h4 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icons a i {
+    margin-right: 8px;
+  }
+  
+  .instagram {
+    color: #E1306C;
+    border: 1px solid #E1306C;
+  }
+  
+  .linkedin {
+    color: #0077B5;
+    border: 1px solid #0077B5;
+  }
+  
+  .social-icons a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Mobile responsive */
+  @media (max-width: 768px) {
+    .social-icons a {
+      display: block;
+      margin: 10px auto;
+      max-width: 200px;
+    }
+  }
