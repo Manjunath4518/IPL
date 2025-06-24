@@ -1,4 +1,4 @@
-# 🏏 IPL 2024 Prediction Game
+# 🏏 IPL 2025 Prediction Game
 
 A fun, interactive web app where users can simulate and predict the **IPL 2024 points table** by selecting winners for upcoming matches. Watch how the rankings change dynamically as you pick winners!
 
